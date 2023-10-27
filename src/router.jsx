@@ -7,13 +7,11 @@ const LazySkillTest = lazy(() => import("./pages/Skilltest/Index"));
 const LazyInternship = lazy(() => import("./pages/Internship/Index"));
 
 export const router = createBrowserRouter([
-
     {
         path: "/",
         element: <Navigate to="/skilltest" replace />
     },
     {
-        path: "/",
         element: <LazyLayout />,
         children: [
             {
