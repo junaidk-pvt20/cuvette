@@ -2,9 +2,9 @@ import { Navigate, createBrowserRouter } from "react-router-dom";
 import { lazy } from "react";
 
 const LazyLayout = lazy(() => import("./layout/Index"));
-const LazyDashboard = lazy(() => import("./pages/dashboard/Index"));
+const LazyDashboard = lazy(() => import("./pages/dashboard"));
 const LazySkillTest = lazy(() => import("./pages/skilltest/Index"));
-const LazyInternship = lazy(() => import("./pages/internship/Index"));
+const LazyInternship = lazy(() => import("./pages/internship"));
 
 export const router = createBrowserRouter([
     {
