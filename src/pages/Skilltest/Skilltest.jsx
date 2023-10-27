@@ -4,7 +4,7 @@ import TestStatistic from './Teststatistic.jsx'
 import ComparisonGraph from './Comparisongraph.jsx'
 import QuestionAnalysis from './Questionanalysis.jsx'
 import SyllabusAnalysis from './Syllabusanalysis.jsx'
-const SkillTest = () => {
+const Skilltest = () => {
     return (
 
         <div className={styles.skillsContainer}>
@@ -24,4 +24,4 @@ const SkillTest = () => {
     )
 }
 
-export default SkillTest
+export default Skilltest
