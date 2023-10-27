@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./skill.module.scss"
+import styles from "./Skill.module.scss"
 import classNames from 'classnames';
 const SyllabusAnalysis = () => {
     const SyllabusAnalysisList = [

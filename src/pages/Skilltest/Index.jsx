@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from "./skill.module.scss"
-import TestStatistic from './TestStatistic'
-import ComparisonGraph from './ComparisonGraph'
-import QuestionAnalysis from './QuestionAnalysis'
-import SyllabusAnalysis from './SyllabusAnalysis'
+import styles from "./Skill.module.scss"
+import TestStatistic from './TestStatistic.jsx'
+import ComparisonGraph from './ComparisonGraph.jsx'
+import QuestionAnalysis from './QuestionAnalysis.jsx'
+import SyllabusAnalysis from './SyllabusAnalysis.jsx'
 const SkillTest = () => {
     return (
 

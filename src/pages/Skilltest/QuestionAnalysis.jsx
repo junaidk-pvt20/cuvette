@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./skill.module.scss"
+import styles from "./Skill.module.scss"
 import arrow from "../../assets/arrow.svg"
 const QuestionAnalysis = () => {
     return (

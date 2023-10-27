@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./skill.module.scss"
+import styles from "./Skill.module.scss"
 import graph from "../../assets/graph.png"
 import { Line } from 'react-chartjs-2';
 import 'chart.js/auto'

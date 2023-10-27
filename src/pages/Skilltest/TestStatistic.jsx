@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import styles from "./skill.module.scss"
+import styles from "./Skill.module.scss"
 import html from "../../assets/html.png"
 import rank from "../../assets/rank.svg"
 import percentage from "../../assets/percentage.svg"
 import correct from "../../assets/correct.png"
-import Modal from "../../components/Modal/Index"
+import Modal from "../../components/modal"
 const TestStatistic = () => {
     const [statistics, setStatistics] = useState({
         rank: 12_890,
