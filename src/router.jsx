@@ -6,10 +6,10 @@ const LazyInternship = lazy(() => import("./pages/internship/Internship.jsx"));
 // const LazySkillTest = lazy(() => import("./pages/skilltest/Skilltest.jsx"));
 
 export const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <Navigate to="/skilltest" replace />
-    },
+    // {
+    //     path: "/",
+    //     element: <Navigate to="/skilltest" replace />
+    // },
     {
         element: <LazyLayout />,
         children: [
@@ -17,10 +17,10 @@ export const router = createBrowserRouter([
                 path: "/dashboard",
                 element: <LazyDashboard />,
             },
-            {
-                path: "/skilltest",
-                element: <LazySkillTest />,
-            },
+            // {
+            //     path: "/skilltest",
+            //     element: <LazySkillTest />,
+            // },
             {
                 path: "/internship",
                 element: <LazyInternship />,
